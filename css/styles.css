@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    height: 600px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+   
+}
+.left  img{
+    width: 84px;
+    height: 84px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin: 10px;
+
+}
+
+.right-links {
+    margin: 10px;
+    position: relative;
+    right: 70px;
+    top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    
+}
+/*** used relative position to position my into**/
+
+.intro h1 {
+   position: relative;
+   left: 250px;
+   top: 150px;
+   
+}
+
+.intro p {
+    position: relative;
+    left: 250px;
+    top: 170px;
+    width: 300px;
+}
+
+.btn{
+    position: relative;
+    left: 250px;
+    top: 200px;
+    
+}
+.container {
+    width: 300px;
+    height: 120px;
+}
+
+.container img {
+    width: 180%;
+    height: auto;
+    position: relative;
+    left: 650px;
+    bottom: 100px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3a434a);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3a434a);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3a434a);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3a434a);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3a434a);
+    text-decoration: none;
+  }
+   /*** used flexbox **/
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.services img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    margin: 5px 20px 0px 20px;
+    border-radius: 15px;
+    
+}
+
+p{
+   position: relative;
+   left: 40px;
+}
+
+.quote {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    background-color: #e5e7eb;
+    
+} 
+
+.quote p {
+    position: relative;
+    left: 150px;
+    top: 80px;
+    height: 80px;
+    width: auto;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote b {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 60px;
+}
+
+#container {
+    height: 200px;
+    width: auto; 
+}
+
+.signup {
+    height: 150px;
+    margin: 50px 200px;
+    border-radius: 10px;
+    padding-left: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+.signup p {
+    width: 30%;
+    padding-right: 200px;
+    font-size: 20px;
+}
+
+.signup button {
+    background: #3882f6;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: solid white 2px;
+}
+
+  .signup button:hover {
+    background: #3882f6;
+    background-image: -webkit-linear-gradient(top, #3882f6, #3a434a);
+    background-image: -moz-linear-gradient(top, #3882f6, #3a434a);
+    background-image: -ms-linear-gradient(top, #3882f6, #3a434a);
+    background-image: -o-linear-gradient(top, #3882f6, #3a434a);
+    background-image: linear-gradient(to bottom, #3882f6, #3a434a);
+    text-decoration: none;
+  }
+
+  .footer {
+    background-color: #1f2937;
+    height: 100px;
+  }
+
+  .footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+  }
